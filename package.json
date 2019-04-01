@@ -1,0 +1,22 @@
+{
+  "name": "progressive-web-apps",
+  "version": "1.0.0",
+  "description": "Bachelor's Degree Progressive Web App",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "keywords": [
+    "pwa",
+    "progressive",
+    "web",
+    "app",
+    "complete",
+    "Alexandru Neculai"
+  ],
+  "author": "Alexandru Neculai",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}

@@ -1,0 +1,76 @@
+{
+    "name":"Progressive Web Apps",
+    "short_name":"PWA",
+    "icons": [
+    {
+        "src": "/src/images/icons/books-24x24.png",
+        "type":"img/png",
+        "sizes":"24x24"
+    },
+    {
+        "src": "/src/images/icons/books-32x32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+    },
+    {
+        "src": "/src/images/icons/books-36x36.png",
+        "type":"img/png",
+        "sizes":"36x36"
+    },
+    {
+        "src": "/src/images/icons/books-48x48.png",
+        "type":"img/png",
+        "sizes":"48x48"
+    },
+    {
+        "src": "/src/images/icons/books-64x64.png",
+        "type": "image/png",
+        "sizes": "64x64"
+    },
+    {
+        "src": "/src/images/icons/books-72x72.png",
+        "type":"img/png",
+        "sizes":"72x72"
+    },
+    {
+        "src": "/src/images/icons/books-96x96.png",
+        "type":"img/png",
+        "sizes":"96x96"
+    },
+    {
+        "src": "/src/images/icons/books-128x128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+    },
+    {
+        "src": "/src/images/icons/books-144x144.png",
+        "type":"img/png",
+        "sizes":"144x144"
+    },
+    {
+        "src": "/src/images/icons/books-192x192.png",
+        "type":"img/png",
+        "sizes":"192x192"
+    },
+    {
+        "src": "/src/images/icons/books-256x256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+    },
+    {
+        "src": "/src/images/icons/books-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+    }
+    ],
+    "start_url": "/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "background_color": "#09a2ff",
+    "theme_color": "#09a2ff",
+    "description": "The future of web development",
+    "dir": "ltr",
+    "lang": "en-US",
+    "orientation": "portrait-primary"
+    
+}
