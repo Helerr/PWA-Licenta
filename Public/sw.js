@@ -2,7 +2,7 @@
 importScripts('/src/js/idb.js');
 importScripts('/src/js/utility.js');
 
-var CACHE_STATIC_NAME = 'static-v25';
+var CACHE_STATIC_NAME = 'static-v28';
 var CACHE_DYNAMIC_NAME = 'dynamic-v5';
 var STATIC_FILES = [
   '/',
@@ -217,6 +217,8 @@ self.addEventListener('sync', function(event) {
             postData.append('id', dt.id);
             postData.append('title', dt.title);
             postData.append('location', dt.location);
+            postData.append('rawLocationLat', dt.rawLocation.lat);
+            postData.append('rawLocationLng', dt.rawLocation.lng);
             postData.append('file', dt.picture, dt.id + '.png');
 
             fetch('https://us-central1-pwa-licenta.cloudfunctions.net/storePostData', {
